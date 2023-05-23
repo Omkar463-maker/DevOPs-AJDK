@@ -4,7 +4,7 @@ FROM python:3.9-slim-buster
 WORKDIR /app
 #Working Dir
 
-COPY requirements.txt .
+COPY requirement.txt .
 #Copying Req file to working DIR
 
 RUN pip install --no-cache-dir -r requirement.txt
