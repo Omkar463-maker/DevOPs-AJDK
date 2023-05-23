@@ -1,0 +1,22 @@
+- hosts: Server
+  become: yes
+  tasks: 
+  - name: Docker installed
+    apt:
+      name: docker.io
+      state: latest
+      update_cache: yes
+  - name: Docker installed
+    apt:
+      name: docker-compose
+      state: latest
+      update_cache: yes
+  - name: Install Jenkins
+    apt: 
+      name: jenkins
+      state: latest
+      update_cache: yes
+  - name: Add User
+    user:
+      name: vagrant
+      group: docker
