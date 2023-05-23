@@ -7,7 +7,7 @@ WORKDIR /app
 COPY requirements.txt .
 #Copying Req file to working DIR
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirement.txt
 #Installing python packages
 
 COPY . .
