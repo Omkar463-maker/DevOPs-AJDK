@@ -1,7 +1,7 @@
-[Ansible Server]
+[Ansible_Server]
 Server
 
-[Jenkin Server]
+[Jenkin_Server]
 JServer
 
 [Server]
