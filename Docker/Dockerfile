@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirement.txt
 COPY . .
 #copying app code to WorkDir
 
-ENV HOST=0.0.0.0
+ENV FLASK_RUN_HOST=0.0.0.0
 #Host IP
 
 EXPOSE 5000
