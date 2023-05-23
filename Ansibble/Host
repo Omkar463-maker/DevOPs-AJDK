@@ -1,9 +1,9 @@
 [Ansible_Server]
-Server
+AServer
 
 [Jenkin_Server]
 JServer
 
 [Server]
-Server
+AServer
 JServer
